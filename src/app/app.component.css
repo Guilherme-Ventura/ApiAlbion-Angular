@@ -1,0 +1,14 @@
+.header{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;    
+}
+header{
+    width: auto;
+    padding: 1.5% 3%;
+    background-color: darkgray;
+    text-align: center;
+}
+nav > a{
+    margin-left: 10px;
+}

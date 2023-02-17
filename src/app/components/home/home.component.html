@@ -1,0 +1,11 @@
+<div class="area-pesquisa">
+  <form [formGroup]="formPersonagem" (ngSubmit)="pesquisarPersonagem()">
+    <input type="text" maxlength="16" placeholder="Digite o nome do Personagem" formControlName = "nomePersonagem" [(ngModel)]="nomePersonagem"/>
+    <input type="submit" name="" value="Pesquisar"/>
+  </form>
+
+  <div class="resultado-pesquisa">
+    <p *ngFor="let Nickname of listaPersonagens">{{Nickname}}</p>
+    <button></button>
+  </div>
+</div>

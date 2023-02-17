@@ -1,0 +1,29 @@
+.area-pesquisa{
+    background-color: #B3CDFF;
+    width: 100%;
+    height: 20.0rem;
+    padding: 1% 1%;
+    text-align: center;
+}
+input{
+    position: relative;
+    display: inline;
+    box-sizing: border-box;
+    width: 20.0rem;
+    height: 2.5rem;
+}
+
+input[type="text"]{
+    padding: 0 25px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    text-align: center;
+}
+input[type="submit"]{
+    width: 7.0rem;
+    position: relative;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    outline: none;
+    cursor: pointer;
+}
